@@ -1,5 +1,5 @@
 # PI_UPS
-A UPS for the Raspberry PI or similar using Powerboost 1000c and Trinket M0.
+A UPS for the Raspberry PI or similar using the Adafruit Powerboost 1000c and the Trinket M0. Could control any other UPS device with an enable pin as well.
 
 Please see the schematic for the connection details. The M0 needs to be connecyed to the PI via I2C and uses thw address 0x20. If this is changed it should be changed in the python scripts that run on the PI as well. The UPS monitors that status of the PI by monitoring the read requests from the PI. Only the I2C pins of the PI are used. 
 
