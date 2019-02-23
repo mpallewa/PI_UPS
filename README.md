@@ -12,4 +12,4 @@ util/ups.py 	                      - UPS monitoring python code to run on the PI
 
 util/rv_ar1v0-cal.py                - Python utility to fetch the battery voltage and the status. 
 
-doc/VBAT_VEN.png                    - Battery voltage and the voltage of the enable pin
+doc/VBAT_VEN.png                    - Battery voltage and the voltage at the enable pin
