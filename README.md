@@ -10,6 +10,6 @@ doc/UPS_schem.png 	                - Schematic
 
 util/ups.py 	                      - UPS monitoring python code to run on the PI (will run as a daemon)
 
-util/rv_ar1v0-cal.py                - Python utility to fetch battery voltage and status. 
+util/rv_ar1v0-cal.py                - Python utility to fetch the battery voltage and the status. 
 
 doc/VBAT_VEN.png                    - Battery voltage and the voltage of the enable pin
