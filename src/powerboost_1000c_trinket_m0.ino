@@ -37,7 +37,8 @@ int sensorPinBAT = A3;
 
 unsigned int usbPower, sensorValueBAT, failCount = 0,
              ignoreCount = 0, turnOff = LOW, turnOffStatus = LOW;
-unsigned long readCount = 0L, prevReadCount = -1L;
+volatile unsigned long readCount;
+unsigned long prevReadCount = -1L;
 unsigned char data[3];
 unsigned long lastRun = 0L, runCount = 0L, t;
 
